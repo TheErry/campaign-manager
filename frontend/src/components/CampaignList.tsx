@@ -16,7 +16,10 @@ export default function CampaignList({
   };
 
   return (
-    <Box sx={{ backgroundColor: "#1e1e1e", p: 3, borderRadius: 2, my: 3 }} width={{ xs: "100%", md: "400px" }}>
+    <Box
+      sx={{ backgroundColor: "#1e1e1e", p: 3, borderRadius: 2, my: 3 }}
+      width={{ xs: "100%", md: "400px" }}
+    >
       <Typography variant="h6" color="white" mb={2}>
         Campaigns
       </Typography>

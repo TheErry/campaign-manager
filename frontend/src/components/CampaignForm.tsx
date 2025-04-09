@@ -53,7 +53,7 @@ export default function CampaignForm({ onCreated }: { onCreated: () => void }) {
       component="form"
       width={{ xs: "100%", md: "400px" }}
       onSubmit={handleSubmit}
-      sx={{ backgroundColor: "#1e1e1e", p: 3, borderRadius: 2, my: 3, }}
+      sx={{ backgroundColor: "#1e1e1e", p: 3, borderRadius: 2, my: 3 }}
     >
       <Typography variant="h6" color="white" mb={2}>
         Add new campaign

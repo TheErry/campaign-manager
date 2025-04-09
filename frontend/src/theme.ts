@@ -24,10 +24,10 @@ export const darkTheme = createTheme({
       styleOverrides: {
         root: {
           input: {
-            color: '#fff',
+            color: "#fff",
           },
           label: {
-            color: '#ccc',
+            color: "#ccc",
           },
         },
       },
@@ -35,14 +35,14 @@ export const darkTheme = createTheme({
     MuiInputLabel: {
       styleOverrides: {
         root: {
-          color: '#ccc',
+          color: "#ccc",
         },
       },
     },
     MuiInputBase: {
       styleOverrides: {
         root: {
-          color: '#fff',
+          color: "#fff",
         },
       },
     },

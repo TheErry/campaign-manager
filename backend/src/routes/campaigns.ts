@@ -16,6 +16,6 @@ campaignsRouter.post("/", (req, res) => {
 });
 
 campaignsRouter.delete("/:id", (req, res) => {
-  campaigns = campaigns.filter(c => c.id !== req.params.id);
+  campaigns = campaigns.filter((c) => c.id !== req.params.id);
   res.status(204).send();
 });

@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import "./App.css";
 import CampaignForm from "./components/CampaignForm";
 import { Campaign } from "@campaigns/shared-types";
 import CampaignList from "./components/CampaignList";
